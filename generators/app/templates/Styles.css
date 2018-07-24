@@ -1,0 +1,149 @@
+/* Variables for quick configuration */
+:root {
+  --primary: <%= primaryColor %>;
+  --secondary: <%= secondaryColor %>;
+  --tertiary: A7CCED;
+  --black: #000;
+  --grey: #8A8A8A;
+  --white: #FFF;
+  --font-1: <%= font %>;
+  --font-2: "Verdana";
+  --font-3: "Helvetica";
+  --font-4: "Sans-Serif";
+  --p-font-size: 11px;
+  --p-line-height: 18px;
+  --h1-font-size: 12px;
+  --h2-font-size: 11px;
+  --support-font-size: 10px;
+  --suport-line-height: 14px;
+  --primary-font-color: var(--black);
+  --secondary-font-color: var(--grey);
+  --link-font-color: #63ADF2;
+  --button-font-color: #551A8B;
+  --button-bg-color: var(--white);
+  --button-color: var(--primary);
+  --button-hover-color: var(--primary);
+}
+
+.ou-wrapper table {
+  table-layout: fixed;
+}
+
+.ou-wrapper td {
+  word-wrap: break-word;
+}
+
+.ou-body {
+  margin-bottom: 50px;
+  font-family: var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tabletextcolhead {
+  color: var(--white);
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  margin: 10px 0px;
+}
+
+p {
+  font-weight: normal;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+}
+
+li {
+  font-weight: normal;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+}
+
+input {
+  font-weight: normal;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+}
+
+select {
+  font-weight: normal;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  color: var(--p-color);
+  font-size: var(--p-font-size);
+  line-height: var(--p-line-height);
+}
+
+.ou-title h1 {
+  font-weight: bold;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  font-size: var(h1-font-size);
+  line-height: var(p-line-height);
+  color: var(--primary);
+  margin-bottom: 0px;
+}
+
+.ou-title h2 {
+  font-weight: bold;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  font-size: var(h2-font-size);
+  line-height: var(p-line-height);
+  color: var(--primary);
+  margin-bottom: 0px;
+}
+
+.ou-title {
+  margin: 10px 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.ou-message {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 15px 25px 15px;
+}
+
+.ou-message p {
+ font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+ font-size: var(--p-font-size);
+ line-height: var(--p-line-height);
+}
+
+.ou-register {
+  -webkit-border-radius: 3;
+  -moz-border-radius: 3;
+  border-radius: 3px;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  color: var(--button-color);
+  font-size: var(--p-font-size);
+  background: var(--button-bg);
+  padding: 10px 25px 10px 25px;
+  border: solid var(--button-color) 2px;
+  text-decoration: none;
+}
+
+.ou-register:hover {
+  background: var(--button-color);
+  color: var(--white);
+  text-decoration: none;
+}
+
+.ou-support ul {
+  list-style-type: none;
+  font-family: var(--font-1), var(--font-1), var(--font-2), var(--font-3), var(--font-4);
+  color: var(--p-color);
+  font-size: var(--support-font-size);
+  line-height: var(--support-line-height);
+  padding-left: 0px;
+}
